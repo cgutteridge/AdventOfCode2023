@@ -1,0 +1,464 @@
+[
+  {
+    bid: 960,
+    type: '5',
+    hand: [ 13, 13, 13, 11, 11 ],
+    line: 'KKKJJ 960'
+  },
+  {
+    bid: 612,
+    type: '5',
+    hand: [ 12, 12, 12, 12, 11 ],
+    line: 'QQQQJ 612'
+  },
+  {
+    bid: 462,
+    type: '5',
+    hand: [ 12, 11, 12, 11, 12 ],
+    line: 'QJQJQ 462'
+  },
+  {
+    bid: 57,
+    type: '5',
+    hand: [ 11, 14, 14, 14, 14 ],
+    line: 'JAAAA 57'
+  },
+  {
+    bid: 752,
+    type: '5',
+    hand: [ 11, 14, 14, 14, 11 ],
+    line: 'JAAAJ 752'
+  },
+  {
+    bid: 753,
+    type: '5',
+    hand: [ 11, 13, 13, 13, 13 ],
+    line: 'JKKKK 753'
+  },
+  {
+    bid: 974,
+    type: '5',
+    hand: [ 11, 11, 11, 11, 11 ],
+    line: 'JJJJJ 974'
+  },
+  {
+    bid: 665,
+    type: '5',
+    hand: [ 11, 11, 11, 11, 3 ],
+    line: 'JJJJ3 665'
+  },
+  { bid: 28, type: '5', hand: [ 11, 11, 8, 11, 11 ], line: 'JJ8JJ 28' },
+  { bid: 191, type: '5', hand: [ 11, 11, 2, 2, 2 ], line: 'JJ222 191' },
+  {
+    bid: 790,
+    type: '5',
+    hand: [ 11, 10, 11, 10, 10 ],
+    line: 'JTJTT 790'
+  },
+  {
+    bid: 558,
+    type: '5',
+    hand: [ 11, 9, 9, 11, 11 ],
+    line: 'J99JJ 558'
+  },
+  {
+    bid: 853,
+    type: '5',
+    hand: [ 11, 8, 11, 11, 8 ],
+    line: 'J8JJ8 853'
+  },
+  { bid: 305, type: '5', hand: [ 11, 8, 8, 11, 8 ], line: 'J88J8 305' },
+  {
+    bid: 585,
+    type: '5',
+    hand: [ 11, 7, 11, 11, 7 ],
+    line: 'J7JJ7 585'
+  },
+  { bid: 841, type: '5', hand: [ 11, 6, 6, 11, 6 ], line: 'J66J6 841' },
+  { bid: 895, type: '5', hand: [ 11, 3, 3, 3, 11 ], line: 'J333J 895' },
+  {
+    bid: 946,
+    type: '5',
+    hand: [ 10, 11, 10, 10, 10 ],
+    line: 'TJTTT 946'
+  },
+  { bid: 811, type: '5', hand: [ 9, 11, 11, 9, 9 ], line: '9JJ99 811' },
+  { bid: 584, type: '5', hand: [ 9, 9, 11, 9, 9 ], line: '99J99 584' },
+  { bid: 473, type: '5', hand: [ 8, 8, 8, 8, 11 ], line: '8888J 473' },
+  { bid: 155, type: '5', hand: [ 7, 7, 11, 7, 11 ], line: '77J7J 155' },
+  { bid: 409, type: '5', hand: [ 7, 7, 7, 7, 11 ], line: '7777J 409' },
+  { bid: 267, type: '5', hand: [ 6, 6, 6, 11, 6 ], line: '666J6 267' },
+  { bid: 620, type: '5', hand: [ 5, 5, 5, 11, 11 ], line: '555JJ 620' },
+  { bid: 512, type: '5', hand: [ 5, 5, 5, 11, 5 ], line: '555J5 512' },
+  { bid: 669, type: '5', hand: [ 4, 4, 11, 4, 4 ], line: '44J44 669' },
+  { bid: 308, type: '5', hand: [ 4, 4, 4, 11, 11 ], line: '444JJ 308' },
+  { bid: 364, type: '5', hand: [ 3, 3, 11, 3, 3 ], line: '33J33 364' },
+  {
+    bid: 1000,
+    type: '5',
+    hand: [ 2, 2, 2, 2, 11 ],
+    line: '2222J 1000'
+  },
+  {
+    bid: 412,
+    type: '41',
+    hand: [ 14, 14, 14, 14, 3 ],
+    line: 'AAAA3 412'
+  },
+  {
+    bid: 187,
+    type: '41',
+    hand: [ 14, 14, 14, 9, 14 ],
+    line: 'AAA9A 187'
+  },
+  {
+    bid: 379,
+    type: '41',
+    hand: [ 14, 14, 8, 14, 14 ],
+    line: 'AA8AA 379'
+  },
+  {
+    bid: 541,
+    type: '41',
+    hand: [ 14, 14, 5, 14, 14 ],
+    line: 'AA5AA 541'
+  },
+  {
+    bid: 555,
+    type: '41',
+    hand: [ 14, 14, 4, 14, 14 ],
+    line: 'AA4AA 555'
+  },
+  {
+    bid: 422,
+    type: '41',
+    hand: [ 14, 14, 4, 14, 11 ],
+    line: 'AA4AJ 422'
+  },
+  {
+    bid: 194,
+    type: '41',
+    hand: [ 14, 14, 4, 11, 11 ],
+    line: 'AA4JJ 194'
+  },
+  { bid: 8, type: '41', hand: [ 14, 11, 14, 9, 14 ], line: 'AJA9A 8' },
+  {
+    bid: 980,
+    type: '41',
+    hand: [ 14, 11, 2, 11, 14 ],
+    line: 'AJ2JA 980'
+  },
+  {
+    bid: 893,
+    type: '41',
+    hand: [ 14, 10, 14, 14, 14 ],
+    line: 'ATAAA 893'
+  },
+  {
+    bid: 793,
+    type: '41',
+    hand: [ 14, 10, 10, 10, 11 ],
+    line: 'ATTTJ 793'
+  },
+  {
+    bid: 431,
+    type: '41',
+    hand: [ 14, 7, 14, 14, 14 ],
+    line: 'A7AAA 431'
+  },
+  { bid: 933, type: '41', hand: [ 14, 7, 7, 7, 7 ], line: 'A7777 933' },
+  {
+    bid: 35,
+    type: '41',
+    hand: [ 14, 5, 14, 11, 14 ],
+    line: 'A5AJA 35'
+  },
+  {
+    bid: 580,
+    type: '41',
+    hand: [ 14, 4, 4, 11, 11 ],
+    line: 'A44JJ 580'
+  },
+  {
+    bid: 597,
+    type: '41',
+    hand: [ 14, 2, 14, 14, 14 ],
+    line: 'A2AAA 597'
+  },
+  {
+    bid: 31,
+    type: '41',
+    hand: [ 13, 13, 14, 13, 13 ],
+    line: 'KKAKK 31'
+  },
+  {
+    bid: 996,
+    type: '41',
+    hand: [ 13, 13, 13, 6, 13 ],
+    line: 'KKK6K 996'
+  },
+  {
+    bid: 56,
+    type: '41',
+    hand: [ 13, 13, 9, 13, 13 ],
+    line: 'KK9KK 56'
+  },
+  {
+    bid: 966,
+    type: '41',
+    hand: [ 13, 13, 8, 13, 13 ],
+    line: 'KK8KK 966'
+  },
+  {
+    bid: 479,
+    type: '41',
+    hand: [ 13, 13, 3, 13, 13 ],
+    line: 'KK3KK 479'
+  },
+  {
+    bid: 416,
+    type: '41',
+    hand: [ 13, 12, 13, 13, 13 ],
+    line: 'KQKKK 416'
+  },
+  {
+    bid: 86,
+    type: '41',
+    hand: [ 13, 11, 11, 5, 13 ],
+    line: 'KJJ5K 86'
+  },
+  {
+    bid: 877,
+    type: '41',
+    hand: [ 13, 11, 4, 4, 4 ],
+    line: 'KJ444 877'
+  },
+  {
+    bid: 66,
+    type: '41',
+    hand: [ 13, 10, 11, 13, 13 ],
+    line: 'KTJKK 66'
+  },
+  { bid: 658, type: '41', hand: [ 13, 6, 6, 6, 6 ], line: 'K6666 658' },
+  {
+    bid: 982,
+    type: '41',
+    hand: [ 13, 4, 13, 13, 13 ],
+    line: 'K4KKK 982'
+  },
+  {
+    bid: 400,
+    type: '41',
+    hand: [ 13, 3, 13, 13, 11 ],
+    line: 'K3KKJ 400'
+  },
+  { bid: 810, type: '41', hand: [ 13, 3, 3, 3, 3 ], line: 'K3333 810' },
+  {
+    bid: 296,
+    type: '41',
+    hand: [ 12, 14, 14, 14, 14 ],
+    line: 'QAAAA 296'
+  },
+  {
+    bid: 216,
+    type: '41',
+    hand: [ 12, 12, 14, 12, 12 ],
+    line: 'QQAQQ 216'
+  },
+  {
+    bid: 823,
+    type: '41',
+    hand: [ 12, 12, 13, 12, 12 ],
+    line: 'QQKQQ 823'
+  },
+  {
+    bid: 744,
+    type: '41',
+    hand: [ 12, 12, 12, 12, 8 ],
+    line: 'QQQQ8 744'
+  },
+  {
+    bid: 582,
+    type: '41',
+    hand: [ 12, 12, 12, 12, 7 ],
+    line: 'QQQQ7 582'
+  },
+  {
+    bid: 429,
+    type: '41',
+    hand: [ 12, 12, 12, 10, 11 ],
+    line: 'QQQTJ 429'
+  },
+  {
+    bid: 800,
+    type: '41',
+    hand: [ 12, 12, 12, 3, 12 ],
+    line: 'QQQ3Q 800'
+  },
+  {
+    bid: 42,
+    type: '41',
+    hand: [ 12, 12, 9, 12, 12 ],
+    line: 'QQ9QQ 42'
+  },
+  {
+    bid: 557,
+    type: '41',
+    hand: [ 12, 12, 2, 12, 12 ],
+    line: 'QQ2QQ 557'
+  },
+  {
+    bid: 158,
+    type: '41',
+    hand: [ 12, 11, 9, 11, 12 ],
+    line: 'QJ9JQ 158'
+  },
+  {
+    bid: 636,
+    type: '41',
+    hand: [ 12, 11, 9, 11, 9 ],
+    line: 'QJ9J9 636'
+  },
+  {
+    bid: 81,
+    type: '41',
+    hand: [ 12, 10, 12, 12, 12 ],
+    line: 'QTQQQ 81'
+  },
+  {
+    bid: 538,
+    type: '41',
+    hand: [ 12, 10, 11, 10, 10 ],
+    line: 'QTJTT 538'
+  },
+  {
+    bid: 539,
+    type: '41',
+    hand: [ 12, 7, 7, 7, 11 ],
+    line: 'Q777J 539'
+  },
+  { bid: 697, type: '41', hand: [ 12, 7, 7, 7, 7 ], line: 'Q7777 697' },
+  {
+    bid: 90,
+    type: '41',
+    hand: [ 12, 6, 12, 12, 12 ],
+    line: 'Q6QQQ 90'
+  },
+  {
+    bid: 126,
+    type: '41',
+    hand: [ 12, 4, 12, 12, 12 ],
+    line: 'Q4QQQ 126'
+  },
+  { bid: 256, type: '41', hand: [ 12, 4, 4, 4, 4 ], line: 'Q4444 256' },
+  {
+    bid: 871,
+    type: '41',
+    hand: [ 11, 13, 13, 13, 5 ],
+    line: 'JKKK5 871'
+  },
+  {
+    bid: 205,
+    type: '41',
+    hand: [ 11, 13, 12, 13, 13 ],
+    line: 'JKQKK 205'
+  },
+  {
+    bid: 593,
+    type: '41',
+    hand: [ 11, 13, 9, 13, 13 ],
+    line: 'JK9KK 593'
+  },
+  {
+    bid: 313,
+    type: '41',
+    hand: [ 11, 11, 13, 11, 12 ],
+    line: 'JJKJQ 313'
+  },
+  {
+    bid: 493,
+    type: '41',
+    hand: [ 11, 11, 6, 5, 5 ],
+    line: 'JJ655 493'
+  },
+  {
+    bid: 786,
+    type: '41',
+    hand: [ 11, 11, 3, 11, 6 ],
+    line: 'JJ3J6 786'
+  },
+  {
+    bid: 200,
+    type: '41',
+    hand: [ 11, 7, 10, 11, 7 ],
+    line: 'J7TJ7 200'
+  },
+  { bid: 326, type: '41', hand: [ 11, 7, 7, 3, 7 ], line: 'J7737 326' },
+  {
+    bid: 844,
+    type: '41',
+    hand: [ 11, 5, 14, 5, 5 ],
+    line: 'J5A55 844'
+  },
+  {
+    bid: 148,
+    type: '41',
+    hand: [ 11, 5, 11, 14, 5 ],
+    line: 'J5JA5 148'
+  },
+  {
+    bid: 238,
+    type: '41',
+    hand: [ 11, 5, 10, 5, 5 ],
+    line: 'J5T55 238'
+  },
+  { bid: 531, type: '41', hand: [ 11, 5, 5, 2, 5 ], line: 'J5525 531' },
+  { bid: 821, type: '41', hand: [ 11, 5, 3, 3, 3 ], line: 'J5333 821' },
+  { bid: 655, type: '41', hand: [ 11, 4, 4, 6, 4 ], line: 'J4464 655' },
+  { bid: 432, type: '41', hand: [ 11, 4, 4, 4, 7 ], line: 'J4447 432' },
+  { bid: 55, type: '41', hand: [ 11, 3, 11, 13, 3 ], line: 'J3JK3 55' },
+  {
+    bid: 546,
+    type: '41',
+    hand: [ 11, 3, 10, 3, 3 ],
+    line: 'J3T33 546'
+  },
+  {
+    bid: 861,
+    type: '41',
+    hand: [ 11, 2, 2, 13, 2 ],
+    line: 'J22K2 861'
+  },
+  {
+    bid: 348,
+    type: '41',
+    hand: [ 10, 10, 14, 10, 10 ],
+    line: 'TTATT 348'
+  },
+  {
+    bid: 208,
+    type: '41',
+    hand: [ 10, 10, 13, 10, 10 ],
+    line: 'TTKTT 208'
+  },
+  {
+    bid: 130,
+    type: '41',
+    hand: [ 10, 10, 10, 10, 9 ],
+    line: 'TTTT9 130'
+  },
+  {
+    bid: 727,
+    type: '41',
+    hand: [ 10, 10, 10, 10, 4 ],
+    line: 'TTTT4 727'
+  },
+  {
+    bid: 914,
+    type: '41',
+    hand: [ 10, 10, 8, 10, 10 ],
+    line: 'TT8TT 914'
+  },
+  ... 900 more items
+]
+{ PART2: 247576756 }
