@@ -1,4 +1,5 @@
 import { XMAS } from './xmas'
+import { LoopFinder } from './LoopFinder'
 
 const lines = XMAS.getData()
 
@@ -7,7 +8,6 @@ console.log({ PART1 })
 console.log()
 const PART2 = part2(lines)
 console.log({ PART2 })
-
 
 type Grid = string[][]
 
@@ -53,8 +53,8 @@ function rollGrid (g: Grid, dir: 'N' | 'S' | 'E' | 'W') {
       }
       break
     case 'E':
-        for (let x = rg[0].length - 1; x >= 0; x--) {
-          for (let y = 0; y < rg.length; y++) {
+      for (let x = rg[0].length - 1; x >= 0; x--) {
+        for (let y = 0; y < rg.length; y++) {
           if (rg[y][x] === 'O') {
             rollBall(rg, x, y, 1, 0)
           }
@@ -104,40 +104,26 @@ function part1 (lines: string[]) {
   return weighLoad(g2)
 }
 
-function gridCode(g:Grid) {
-  return g.map( row=>row.join('')).join(':')
+function gridCode (g: Grid) {
+  return g.map(row => row.join('')).join(':')
 }
 
+
+
+//100876
 function part2 (lines: string[]) {
 
-  const target = 1000000000
+  const target = 1000000000-1
 
   const grid = parse(lines)
-  const mem :Record<string,number>={}
-  const loadAtI:number[]=[]
   let g = grid
-  // find loop
-  let loop_from=-1
-  let loop_size = -1
-  for(let i=0;i<target;i++) {
+
+  const loopFinder = new LoopFinder(target)
+  while (!loopFinder.isDone()) {
     g = cycle(g)
-    let first = -1
     const code = gridCode(g)
-    if( mem[code] ) {
-      loop_from = mem[code]
-      loop_size = i-loop_from
-      console.log('yay')
-      break
-    } else {
-      mem[code]=i
-      loadAtI[i]=weighLoad(g)
-    }
+    loopFinder.log(code, weighLoad(g))
   }
 
-  // work out which loop item "target is"
-  const effectively = ((target-loop_from) % loop_size)+loop_from
-console.log(effectively)
-  //printGrid(grid)
-  //printGrid(g2)
-  return loadAtI[effectively-1]
+  return loopFinder.result()
 }
